@@ -167,6 +167,7 @@
       <DependentUpon>CustomerModel.edmx</DependentUpon>
       <LastGenOutput>CustomerModel.cs</LastGenOutput>
     </Content>
+    <Content Include="DBScript\CRUD_jQuery_MVC.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
