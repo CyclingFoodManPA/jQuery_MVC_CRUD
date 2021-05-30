@@ -12,14 +12,14 @@ GO
 
 CREATE TABLE dbo.Customer (
 	CustomerId INT IDENTITY(1,1) NOT NULL
-	, CustomerName VARCHAR(40) NOT NULL
+	, Name VARCHAR(40) NOT NULL
 	, Country VARCHAR(40) NOT NULL
 	, CONSTRAINT PK_Customer_CustomerID PRIMARY KEY CLUSTERED (CustomerId)
 );
 GO
 
 
-INSERT INTO dbo.Customer (CustomerName, Country)
+INSERT INTO dbo.Customer (Name, Country)
 VALUES ('John Hammond', 'United States')
 	, ('Kieth LaTray', 'United States')
 	, ('Prabu Ramaswammy', 'India')
